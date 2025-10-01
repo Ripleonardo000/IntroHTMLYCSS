@@ -1,0 +1,21 @@
+body {
+    background-color: rgb(234, 19, 227); /* color vino */
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2em;
+    color: black;
+}
+
+p.text {
+    font-size: 1.2em;
+    color: #ddd;
+}
+
+img {
+    max-width: 300px;
+    margin: 20px;
+}
