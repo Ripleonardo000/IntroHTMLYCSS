@@ -1,21 +1,51 @@
+/* Estilos generales */
 body {
-    background-color: rgb(234, 19, 227); /* color vino */
-    color: white;
-    font-family: Arial, sans-serif;
+    background: #ccc;   /* Fondo gris claro */
+    margin: 0;          /* Quita márgenes del navegador */
+    font-family: Arial, sans-serif; /* Fuente más legible */
+}
+
+/* Encabezado */
+header {
+    max-width: 1250px;
+    height: auto;
+    border: 1px solid red;   /* Solo para ver los bordes */
+    margin: 0 auto;          /* Centrado horizontal */
+}
+
+/* Logo dentro del header */
+#logo {
+    width: 250px;
+    height: 150px;
+}
+
+/* Contenido principal */
+main {
+    max-width: 1250px;
+    height: 500px;
+    border: 1px solid green; /* Solo para ver los bordes */
+    margin: 0 auto;          /* Centrado horizontal */
+}
+
+/* Título */
+h1 {
     text-align: center;
 }
 
-h1 {
-    font-size: 2em;
-    color: black;
+/* Párrafo */
+main .text {
+    text-align: center;
 }
 
-p.text {
-    font-size: 1.2em;
-    color: #ddd;
+/* Pie de página */
+footer {
+    max-width: 1250px;
+    height: 200px;
+    border: 1px solid blue;  /* Solo para ver los bordes */
+    margin: 0 auto;          /* Centrado horizontal */
 }
 
-img {
-    max-width: 300px;
-    margin: 20px;
+footer img {
+    width: 100px;
+    height: auto;
 }
